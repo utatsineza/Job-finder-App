@@ -4,18 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Job Finder</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container">
     <h1>Job Finder</h1>
     <form id="job-search-form">
-      <input type="text" id="job-title" placeholder="Enter job title" required>
-      <input type="text" id="location" placeholder="Enter location" required>
+      <input type="text" id="job-title" placeholder="Job Title" required>
+      <input type="text" id="location" placeholder="Location" required>
       <button type="submit">Search</button>
     </form>
-    <div id="results"></div>
-  </div>
-  <script src="app.js"></script>
+
+    <div id="job-results" class="job-results">
+      <!-- Job results will be displayed here -->
+    </div>
+
+
+  <script src="script.js"></script>
 </body>
 </html>
