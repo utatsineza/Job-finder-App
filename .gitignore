@@ -1,0 +1,51 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+logs/*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Docker files
+docker-compose.override.yml
+Dockerfile
+docker-compose.yml
+*.swp
+
+# Temporary files
+tmp/
+*.tmp
+*.swp
+
+# Cache and build artifacts
+dist/
+build/
+.cache/
+coverage/
+.vscode/
+
+# NGINX logs (if any)
+nginx/error.log
+nginx/access.log
+
+# IDE and editor files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
