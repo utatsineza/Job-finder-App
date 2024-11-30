@@ -2,16 +2,16 @@
 A web-based job search app that fetches job listings through an external API (like Adzuna). The app is containerized with Docker and can be deployed on multiple web servers with a load balancer.
 
 ## FEATURES
-**Search jobs by keywords and location.
-**Display job listings from an external API.
-**Responsive design.
-**Dockerized for easy deployment.
+1. Search jobs by keywords and location.
+2. Display job listings from an external API.
+3. Responsive design.
+4. Dockerized for easy deployment.
 
 ## TECHOLOGIES
-**Frontend: HTML, CSS, JavaScript
-**API: Adzuna API (or similar)
-**Containerization: Docker
-**Load Balancer: NGINX
+1. Frontend: HTML, CSS, JavaScript
+2. API: Adzuna API (or similar)
+3. Containerization: Docker
+4. Load Balancer: NGINX
 
 ## SETUP
 1. Clone Repository to your local machine:
@@ -36,10 +36,9 @@ docker build -t job-finder-app .
 docker run -d -p 80:80 --name job-finder-container job-finder-app
 ```
 5. Access the App:
-
-```bash
-Open http://localhost in your browser.
-```
+Open 
+http://localhost 
+in your browser.
 
 ## Docker Image
 You can view Image from DockerHub, DockerHub Image:https://hub.docker.com/r/utatsineza/job-finder-app/tags
