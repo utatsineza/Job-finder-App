@@ -1,4 +1,4 @@
-## Job Finder App
+# Job Finder App
 A web-based job search app that fetches job listings through an external API (like Adzuna). The app is containerized with Docker and can be deployed on multiple web servers with a load balancer.
 
 ## FEATURES
@@ -14,8 +14,9 @@ A web-based job search app that fetches job listings through an external API (li
             Load Balancer: NGINX
 
 ## SETUP
-## 1. Clone Repository to your local machine:
+1. Clone Repository to your local machine:
 
+``` bash
 git clone https://github.com/utatsineza/Job-finder-App.git
 
 ## 2. Navigate to the project directory:
