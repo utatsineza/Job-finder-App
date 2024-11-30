@@ -1,5 +1,5 @@
 # Job Finder App
-A web-based job search app that fetches job listings through an external API (like Adzuna). The app is containerized with Docker and can be deployed on multiple web servers with a load balancer.
+A web-based job search app that fetches job listings through an external API (like Adzuna) especially based in UK. The app is containerized with Docker and can be deployed on multiple web servers with a load balancer.
 
 ## FEATURES
 1. Search jobs by keywords and location.
