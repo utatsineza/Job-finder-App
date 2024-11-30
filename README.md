@@ -37,7 +37,7 @@ docker run -d -p 80:80 --name job-finder-container job-finder-app
 ```
 5. Access the App:
 Open 
-http://localhost 
+http://localhost:8080 
 in your browser.
 
 ## Docker Image
